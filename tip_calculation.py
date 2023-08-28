@@ -9,7 +9,7 @@ def calculate_tips(price):
 
 def main():
     try:
-        price = float(input("Enter the price from Apple Pay: "))
+        price = float(input("Enter the final bill: "))
         tips = calculate_tips(price)
         
         print("Tip Calculations:")
